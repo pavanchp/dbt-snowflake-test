@@ -19,3 +19,12 @@ models:
             tests:
                 - unique
                 - not_null
+
+    - name: test_stg_emp
+      description: "A test_stg_emp model"
+      columns:
+          - name: EMPLOYEE_ID
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
